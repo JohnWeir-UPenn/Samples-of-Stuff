@@ -1,0 +1,5 @@
+To execute the program, place the users.json file in an eclipse project and the remainder of the files in the src folder. Run CentralityTest.java to see the betweenness centrality and a sample page ranking of a set of users.
+
+Running the main program, Centrality, produces a mapping of Persons (a data structure intended to represent an individual in a simple social network) to the value of their betweenness centrality in the network, which is constructed as a graph from a JSON file (an example of which is included as users.json). The tweet classes are objects associate with the Person object and there are other classes dealing with these tweets if you are interested in looking at more code. From running Centrality, nothing is printed as output due to the size of the file but in the class CentralityTest a print statement displays the information being parsed and the output of running Centrality.
+
+ If the code is being executed in eclipse, place the json file outside the src directory and the code should execute without issue.
