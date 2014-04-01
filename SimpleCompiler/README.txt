@@ -1,0 +1,3 @@
+The jc.c method creates a simple postscript compiler that can translate into assembly simple mathmatical commands ( 5 3 +), a variety of bitwise operations (5 2 and), comparisions (3 4 le where le stands for less than or equal to), stack commands allowing you to change the ordering of numbers dynamically, and allows the user to create functions made of a series of these commands and named anything.
+
+jc.c should be run from the command line with any of the above form of arguments and should throw the correct errors when given invalid input.
